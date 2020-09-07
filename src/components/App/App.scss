@@ -1,0 +1,47 @@
+.container {
+  max-width: 1400px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  .header {
+    padding: 1rem 0;
+    color: var(--foreground);
+    .title-container {
+      display: flex;
+      justify-content: space-between;
+    }
+    .main-title {
+      text-decoration: none;
+      margin-right: 1rem;
+    }
+  }
+  .main {
+    align-items: center;
+  }
+}
+
+.emptySearchSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .container {
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}

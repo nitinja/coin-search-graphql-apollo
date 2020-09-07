@@ -1,0 +1,55 @@
+@import '../../styles/theme';
+
+.coin-pair-container {
+  flex: 0 1 26rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  height: 10rem;
+  background-color: var(--background-alt);
+
+  .exchange-name-container {
+    height: 3rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: var(--foreground-alt);
+  }
+
+  .main {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .info-container {
+    height: 3rem;
+    padding: 0 0.6rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.7rem;
+  }
+
+  .info-box {
+    .info-content {
+      font-weight: bold;
+      color: var(--foreground-alt);
+    }
+    .info-description {
+      color: var(--foreground-alt);
+    }
+  }
+
+  .title-value {
+    font-size: 1.2rem;
+    color: var(--foreground-alt);
+  }
+}
+
+.up {
+  color: var(--success);
+}
+.down {
+  color: var(--error);
+}

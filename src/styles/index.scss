@@ -1,0 +1,58 @@
+@import 'theme';
+@import 'components';
+// @import "utilities";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+input,
+select {
+  font-size: 16px;
+  line-height: 1.4;
+  height: 2rem;
+  padding: 0 0.5rem;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  border-top: 1px solid var(--grey);
+  opacity: 0.2;
+  width: 100%;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+*:focus {
+  outline: 2px solid var(--foreground);
+}

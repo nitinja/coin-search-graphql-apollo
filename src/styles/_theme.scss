@@ -1,0 +1,28 @@
+html {
+  --white1: #ffffff;
+  --white2: #f1f1f1;
+  --darkblue: rgb(87, 114, 155);
+  --dark: #1d3557;
+  --blue: blue;
+
+  /* Common utility colors */
+  --success: green;
+  --error: #d11e3c;
+  --warning: #fed766;
+  --black: #000000;
+  --grey: #666666;
+}
+
+.light {
+  --foreground: var(--dark);
+  --foreground-alt: var(--darkblue);
+  --background: var(--white1);
+  --background-alt: var(--white2);
+}
+
+.dark {
+  --foreground: var(--white1);
+  --foreground-alt: var(--white2);
+  --background: var(--dark);
+  --background-alt: var(--darkblue);
+}

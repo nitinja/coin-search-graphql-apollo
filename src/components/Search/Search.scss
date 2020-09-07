@@ -1,0 +1,21 @@
+@import '../../styles/theme';
+
+.searchContainer {
+  margin: 1rem 0 0.5rem 0;
+  input {
+    width: 100%;
+    padding: 1rem 1rem 1rem 2.2rem;
+    color: var(--foreground);
+    background: var(--background) url(../../assets/search.svg) no-repeat 0.5rem;
+    border: 2px solid var(--foreground-alt);
+  }
+  input::placeholder {
+    color: var(--foreground);
+  }
+}
+
+@media (min-width: 768px) {
+  .searchContainer {
+    margin: 0;
+  }
+}

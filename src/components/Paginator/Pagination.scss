@@ -1,0 +1,13 @@
+.page-size-options {
+  margin-top: 1rem;
+  text-align: right;
+  color: var(--foreground);
+  .button-link {
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+
+  .button-link-active {
+    text-decoration: underline;
+  }
+}
