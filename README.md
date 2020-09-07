@@ -4,6 +4,7 @@ demo: [https://blissful-torvalds-298243.netlify.app/](https://blissful-torvalds-
 
 ## Features
 
+- Apollo GraphQl Client, used stale-while-revalidate data fetching pattern
 - ES6, React, React hooks, Typescript, React router used, no third party library used.
 - Debounced search input
 - Testing with jest/react-testing-library
