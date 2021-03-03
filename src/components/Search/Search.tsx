@@ -29,7 +29,7 @@ export default function Search({ onSearchRequest }: Props): ReactElement {
         onChange={handleAddressChange}
         autoComplete='off'
         type='text'
-        placeholder='Search currencies'
+        placeholder='Search Currency'
         className='searchContainer input'
       />
     </section>
